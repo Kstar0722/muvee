@@ -1,0 +1,213 @@
+@font-face {
+  font-family: 'SourceSansPro Light';
+  src: url("./assets/fonts/SourceSansPro-Light.ttf"); }
+
+@font-face {
+  font-family: 'SourceSansPro Regular';
+  src: url("./assets/fonts/SourceSansPro-Regular.ttf"); }
+
+body {
+  margin: 0px; }
+
+body * {
+  font-family: 'SourceSansPro Light'; }
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 3px 1px #757575;
+  -moz-box-shadow: 0px 0px 3px 1px #757575;
+  box-shadow: 0px 0px 3px 1px #757575; }
+  .container .hero-container {
+    background-image: url("./assets/hero.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 500px; }
+    .container .hero-container .hero-text {
+      padding: 40px 50px;
+      font-size: 42px;
+      color: white;
+      margin: 0px; }
+  .container .amazing-storeis .amazing-storeis-header {
+    font-size: 48px;
+    text-align: center;
+    margin: 10px 0px; }
+  .container .amazing-storeis .amazing-storeis-text {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0px; }
+  .container .customize-your-moments {
+    margin: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 50px 0; }
+    .container .customize-your-moments .customize-wrap {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      max-width: 410px;
+      margin: 0 50px; }
+      .container .customize-your-moments .customize-wrap .customize-header {
+        font-family: "SourceSansPro Regular";
+        font-size: 24px;
+        color: #ee4023;
+        margin: 10px 0px; }
+      .container .customize-your-moments .customize-wrap .customize-text {
+        font-size: 18px;
+        margin: 10px 0px; }
+    .container .customize-your-moments .btn-customize {
+      margin: 10px 0;
+      padding: 0 20px;
+      height: 38px;
+      width: 200px;
+      text-align: left;
+      font-size: 20px;
+      font-family: "SourceSansPro Regular";
+      border: 2px solid #ee4023;
+      color: #ee4023;
+      outline: none; }
+      .container .customize-your-moments .btn-customize:hover {
+        color: white;
+        background-color: #ee4023; }
+  .container .autometic-crop {
+    margin: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 50px 0; }
+    .container .autometic-crop .autometic-wrap {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 0 50px;
+      width: 100%; }
+      .container .autometic-crop .autometic-wrap .autometic-header {
+        font-family: "SourceSansPro Regular";
+        font-size: 24px;
+        color: #ee4023;
+        margin: 10px 0px; }
+      .container .autometic-crop .autometic-wrap .autometic-text {
+        font-size: 18px;
+        margin: 10px 0px;
+        max-width: 450px; }
+    .container .autometic-crop .btn-change {
+      margin: 10px 0;
+      padding: 0 20px;
+      height: 38px;
+      width: 200px;
+      text-align: left;
+      font-size: 20px;
+      font-family: "SourceSansPro Regular";
+      border: 2px solid #ee4023;
+      color: #ee4023;
+      outline: none; }
+      .container .autometic-crop .btn-change:hover {
+        color: white;
+        background-color: #ee4023; }
+  .container .closing-container {
+    background-image: url("./assets/closing-photo.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 746px;
+    position: relative; }
+    .container .closing-container .free-trial-wrap {
+      width: 658px;
+      height: 206px;
+      position: absolute;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      bottom: 157px;
+      background-color: rgba(0, 0, 0, 0.5); }
+    .container .closing-container .free-trial-header {
+      font-family: "SourceSansPro Regular";
+      font-size: 36px;
+      text-align: center;
+      color: white;
+      margin-bottom: 0px; }
+    .container .closing-container .free-trial-text {
+      font-size: 20px;
+      color: #dadada;
+      text-align: center;
+      margin-top: 0px; }
+    .container .closing-container .tree-trial-input-wrap {
+      margin-top: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .container .closing-container .tree-trial-input-wrap .email-input {
+        font-size: 14px;
+        width: 232px;
+        height: 40px;
+        font-style: italic;
+        outline: none;
+        padding: 0px 10px;
+        margin-right: 2px; }
+      .container .closing-container .tree-trial-input-wrap .btn-trial {
+        height: 40px;
+        width: 161px;
+        border: 0;
+        border-radius: 0;
+        background-color: #ee4023;
+        outline: none;
+        color: white;
+        font-family: "SourceSansPro Regular";
+        font-size: 14px;
+        text-transform: uppercase; }
+  .container .geometric-container {
+    background-image: url("./assets/geometric-band.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 70px;
+    position: relative;
+    margin-top: 15px;
+    padding-bottom: 30px; }
+    .container .geometric-container .links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 100%;
+      width: 100%;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .container .geometric-container .links a {
+        font-size: 16px;
+        color: white;
+        padding: 0px 10px;
+        cursor: pointer;
+        line-height: 14px;
+        border-right: 1px solid white; }
+        .container .geometric-container .links a:last-child {
+          border-right: 0px; }
